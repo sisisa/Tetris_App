@@ -1,0 +1,5 @@
+export { Board } from "./components/Board"
+export { NextPiece } from "./components/NextPiece"
+export * from "./hooks/useTetris"
+export type { Piece, Board as BoardType, Cell } from "./types/tetris"
+export type { TetrominoKey } from "./utils/tetris-logic"
